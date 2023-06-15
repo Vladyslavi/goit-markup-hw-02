@@ -101,7 +101,6 @@ button {
 
 .header-link {
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -141,7 +140,6 @@ button {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-cl);
 }
@@ -152,8 +150,6 @@ button {
     line-height: 1.5;
     color: var(--accent-cl);
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -194,8 +190,6 @@ button {
 
 .section-team-item {
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .section-team-img {}
@@ -215,7 +209,6 @@ button {
     color: #4D5AE5;
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
