@@ -12,6 +12,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-dark-accent);
+    background-color: var(--accent-cl);
 }
 
 ul,
@@ -74,6 +75,10 @@ button {
     background-color: #FFFFFF;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .header-nav {}
 
 .header-logo {}
@@ -82,11 +87,20 @@ button {
 
 .studio {}
 
-.header-list {}
+.header-list {
+    list-style: none;
+}
 
-.header-item {}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02ex;
+    color: var(--main-dark-cl);
+}
 
 .header-link {
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
