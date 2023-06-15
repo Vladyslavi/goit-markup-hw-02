@@ -51,6 +51,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--main-dark-cl);
 }
 .logo {
@@ -141,6 +142,7 @@ button {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--accent-cl);
 }
 
@@ -150,6 +152,7 @@ button {
     line-height: 1.5;
     color: var(--accent-cl);
     background-color: #4D5AE5;
+    letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -182,7 +185,9 @@ button {
 
 .section {}
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .section-team-title {}
 
