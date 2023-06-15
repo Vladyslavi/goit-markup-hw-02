@@ -3,9 +3,7 @@
     --main-dark-accent: #434455;
     --main-light-cl: #F4F4FD;
     --accent-cl: #FFFFFF;
-    --main-bg-cl:
 }
-
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -24,7 +22,6 @@ ol {
 .link,
 a {
     text-decoration: none;
-    color: ;
 }
 
 .btn,
@@ -32,8 +29,6 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
-
-
 .section {}
 
 .title {}
@@ -75,7 +70,9 @@ button {
 .logo-light {
     color: var(--main-light-cl);
 }
-.header {}
+.header {
+    background-color: #FFFFFF;
+}
 
 .header-nav {}
 
@@ -141,7 +138,7 @@ button {
     line-height: 1.5;
     color: var(--accent-cl);
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -160,6 +157,7 @@ button {
 .section-advantages-subtitle {}
 
 .section-advantages-text {}
+
 .section {}
 
 .doing {}
@@ -171,6 +169,7 @@ button {
 .section-doing-item {}
 
 .section-doing-img {}
+
 .section {}
 
 .team {}
@@ -179,17 +178,44 @@ button {
 
 .section-team-list {}
 
-.section-team-item {}
+.section-team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .section-team-img {}
 
 .section-team-subtitle {}
 
 .section-team-text {}
+
 .footer {
     background: var(--main-dark-cl);
     color: var(--main-light-cl);
 }
-.footer-text {
-    
+
+.footer-text {}
+
+.portfolio-btn {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-text {
+    color: #434455;
+}
+
+.portfolio-main-item {
+    background-color: #FFFFFF;
+    border: 1px solid #E7E9FC;
+    ;
 }
