@@ -73,7 +73,8 @@ button {
     color: var(--main-light-cl);
 }
 .header {
-    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: var(--main-dark-cl);
 }
 
 .link {
